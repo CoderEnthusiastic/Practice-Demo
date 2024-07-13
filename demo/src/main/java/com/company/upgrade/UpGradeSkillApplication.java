@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class UpGradeSkillApplication {
 
 	public static void main(String[] args) {
-		System.out.println("hello world");
+		ConfigurableApplicationContext context = SpringApplication.run(UpGradeSkillApplication.class, args);
 	}
 
 }
