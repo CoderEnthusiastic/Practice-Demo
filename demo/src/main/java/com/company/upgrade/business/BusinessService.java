@@ -15,7 +15,7 @@ public class BusinessService {
             sum += dataSet;
         }
 
-        return sum;
+        return sum + 7;
     }
 
 }
